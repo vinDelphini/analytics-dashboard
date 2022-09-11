@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d7012f03-93fc-4038-b64d-a3b06e062faf/microsoft.web/sites/subscriptions/d7012f03-93fc-4038-b64d-a3b06e062faf/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/venki-1",
+    "appService.deploySubpath": "."
+}
