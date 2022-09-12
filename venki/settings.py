@@ -80,8 +80,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'analytics_dashboard',
         'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'PASSWORD': 'Coffee2020$',
+        'HOST': 'analytics-dashboard.cmcgfayhfvqr.us-east-2.rds.amazonaws.com',
         'PORT': 5432,
     }
 }
