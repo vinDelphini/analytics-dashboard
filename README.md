@@ -1,0 +1,1 @@
+# Because the project is small and has very limited pages, Middleware is not built for user access to pages, instead login decorators are used for page restrictions.
