@@ -26,6 +26,9 @@ sudo pip3 install psycopg2==2.9.3
 # Set permission for all files
 sudo chown 777 /home/ubuntu/analytics-dashboard/
 
+# db migrations
+python3 manage.py makemigrations
+python3 manage.py migrate
 
 # start server
 screen -d -m python3 manage.py runserver 0:8000
