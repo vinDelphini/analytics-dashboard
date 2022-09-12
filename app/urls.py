@@ -10,4 +10,6 @@ urlpatterns = [
     path('logout/', views.logoutUser, name='logout'),
     path('forgotpass/', views.forgotPassword, name='forgot-password'),
 
+    path('404/', views.errorPage, name='404'),
+    path('blank', views.blank, name='blank')
 ]

@@ -67,3 +67,12 @@ def logoutUser(request):
 def forgotPassword(request):
     return render(request, 'forgot-password.html')
 
+
+@login_required(login_url='login')
+def errorPage(request):
+    return render(request, '404.html')
+
+
+@login_required(login_url='login')
+def blank(request):
+    return render(request, 'blank.html')
